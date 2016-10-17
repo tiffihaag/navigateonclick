@@ -1,0 +1,47 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+}
+
+article{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+article main{
+	display: block;
+	position: relative;
+	background: url("flower.jpg");
+	background-size: cover;
+	width: 400%;
+	height: 400%;
+	top: 0;
+	left: 0;
+	transition: all 1s;
+}
+
+article nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9000;
+}
+
+article nav > *{
+	display: inline-block;
+	padding: .5em;
+	background: silver;
+	margin-left: .5em;
+	cursor: pointer;
+}
+
+#pointA{ left: 20%; top 20%; }
+#pointB{ left: 40%; top 30%; }
+#pointC{ left: 60%; top 50%; }
+#pointD{ left: 20%; top 70%; }
